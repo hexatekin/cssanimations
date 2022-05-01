@@ -1,0 +1,99 @@
+
+div.animation {
+	 
+        position:fixed;
+        width:29%;
+        height: auto;
+	margin-top: -40px;
+        margin-left:500px;
+        top: 155px;
+        right: 55px;
+	z-index: 999;
+	animation: rot 2.5s infinite linear;
+        animation-duration: 5s;
+        display: inline-block;
+ 
+}
+
+@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-83px)
+		           rotate(0deg);
+
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-83px) 
+		           rotate(-360deg);
+
+	}
+}
+
+
+div.animation2 {
+	position:fixed;
+        width:29%;
+	height: auto;
+z-index: 999;
+	margin-top: -40px;
+        margin-left: 500px;
+	animation: rot 5s infinite linear;
+        animation-delay: -2s;
+        display: inline-block;
+top: 155px; 
+right: 55px; 
+        
+}
+
+
+
+div.animation3 {
+	 
+	position:fixed;
+       width:65%;
+         height: auto;
+	margin-top: -80px;
+        margin-left:-40px;
+        top: 500px;
+right: 70px;
+	z-index: 999;
+	animation: rot2 5s infinite linear;
+animation-duration: 5s;
+display: inline-block;
+
+ 
+}
+
+@keyframes rot2 {
+	from {
+		transform: rotate(0deg)
+		           translate(-220px)
+		           rotate(0deg);
+
+
+	}
+	to {
+		transform: rotate(360deg)
+		           translate(-220px) 
+		           rotate(-360deg);
+
+	}
+}
+
+div.animation4 {
+	 
+	position:fixed;
+        width:65%;
+	height: auto;
+z-index: 999;
+	margin-top: -80px;
+        margin-left: -40px;
+	animation: rot2 5s infinite linear;
+        animation-delay: -2.5s;
+        display: inline-block;
+top: 500px; 
+right: 70px;
+
+ 
+}
